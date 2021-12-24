@@ -1,9 +1,12 @@
-function App() {
+import  Formulario  from "./components/Formulario.jsx";
+import Header  from './components/Header.jsx'
 
-  return (
+function App() {
+return (
     <>
     <div className="App">
-      
+      <Formulario/>
+      <Header/>
       </div>
     </>
   )
