@@ -3,13 +3,11 @@ import Header  from './components/Header.jsx'
 
 function App() {
 return (
-    <>
-    <div className="App">
-      <Formulario/>
-      <Header/>
-      </div>
-    </>
-  )
+  <div className="container mx-auto">
+    <Header />
+    <Formulario />
+  </div>
+);
 }
 export default App
 
